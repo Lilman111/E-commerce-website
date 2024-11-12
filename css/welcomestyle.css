@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700&display=swap');
+
+.page-container {
+    background-color:darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    background-size: auto;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.yellow-btn {
+    background-color: orangered;
+    margin-right: 10px;
+}
+
+.blue-btn {
+    background-color: blue;
+    margin-left: 10px;
+}

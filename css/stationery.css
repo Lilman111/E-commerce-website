@@ -1,0 +1,73 @@
+
+.trends-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%; 
+  height: 80%; 
+  margin: 100px auto; 
+  position: relative;
+}
+
+
+.slider-button {
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px; 
+  font-size: 1.5rem; 
+  cursor: pointer;
+  padding: 10px;
+  margin: 0 10px; 
+}
+
+
+.slider-button:hover{
+  background-color: black;
+  color: white;
+}
+
+.slides-container {
+  width: 100%;
+}
+
+.slide {
+  display: none; 
+  text-align: center;
+  transition: opacity 0.5s ease;
+}
+
+.slide.active {
+  display: block;
+}
+
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row; 
+}
+
+.image {
+  width: 300px; 
+  height: 300px;
+  margin: 0 10px;
+}
+
+
+.image:hover {
+  transform: rotate(1deg);
+  transition: transform 0.3s ease;
+  transition: all 0.3s ease;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(255, 187, 187, 0.363);
+  transform: scale(1.05);
+}
+
+
+.blur {
+  filter: blur(3px); /* Apply blur effect */
+}

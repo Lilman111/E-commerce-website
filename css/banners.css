@@ -1,0 +1,56 @@
+.promotional-banner-section {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+}
+
+.promotional-banner-section .carousel {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.promotional-banner-section .carousel-item {
+  display: flex;
+  align-items: center;
+}
+
+.promotional-banner-section .carousel-item img {
+  height: 400px;
+  width: 60%;
+  object-fit: cover;
+}
+
+.promotional-banner-section .carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 5px;
+  text-align: left;
+  width: 40%;
+  margin-left: 20px;
+}
+
+.promotional-banner-section .carousel-caption h5 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.promotional-banner-section .carousel-caption p {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.promotional-banner-section .carousel-control-prev-icon,
+.promotional-banner-section .carousel-control-next-icon {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.promotional-banner-section .carousel-control-prev-icon:hover,
+.promotional-banner-section .carousel-control-next-icon:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
